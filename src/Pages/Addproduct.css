@@ -1,0 +1,68 @@
+.formdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7e968e;
+    width: 400px;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: 50px;
+    color: #000000;
+}
+
+.div-label {
+    margin: 10px;
+}
+
+.div-label input[type='text'] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #452e2e;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #b5d5ca;
+    color: #000000;
+}
+
+.div-label input[type='file'] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #452e2e;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 70%;
+}
+
+.div-label label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #000000;
+}
+
+
+.formdiv button {
+    background-color: #64ad67;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.formdiv button:hover {
+    background-color: #3aa440;
+}
+
+@media only screen {
+    .col-2 {
+        width: 100%;
+    }
+
+}
